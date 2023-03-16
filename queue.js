@@ -49,9 +49,9 @@ line.enqueue("Jen");
 line.enqueue("Maximus");
 line.enqueue("Rowan");
 
-line.dequeue();
-line.dequeue();
-line.dequeue();
-line.dequeue();
+// line.dequeue();
+// line.dequeue();
+// line.dequeue();
+// line.dequeue();
 
 console.log(line.isEmpty);
