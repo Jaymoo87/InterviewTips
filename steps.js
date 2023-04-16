@@ -7,11 +7,11 @@
 
 function printSteps(n) {
   // height of the steps
-  for (let i = 1; i <= n; i++) {
+  for (let height = 1; height <= n; height++) {
     let step = "";
 
-    for (let j = 1; j <= n; j++) {
-      if (j <= i) {
+    for (let width = 1; width <= n; width++) {
+      if (width <= height) {
         step += "#";
       } else {
         step += " ";
